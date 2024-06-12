@@ -6,7 +6,7 @@
   /*========== Colors ==========*/
   --hue: 145; /* Updated hue for WhatsApp-like green */
   --sat: 55%; /* Updated saturation for more vibrant green */
-  --first-color: hsl(var(--hue), var(--sat), 36%); /* Main green color */
+  --first-color: hsl(var(--hue), var(--sat), 36%); /* Main green color: #298e53 */
   --first-color-light: hsl(
     var(--hue),
     var(--sat),
@@ -179,6 +179,17 @@ body.dark-theme {
 .button-header-flex {
   display: flex;
   column-gap: 0.25rem;
+}
+
+.header-contain-title {
+  display: flex;
+  column-gap: 2px;
+}
+
+.header-logo-img-container {
+  background-color: #298e53;
+  border-radius: 4px;
+  height: 24px;
 }
 
 /*=============== NAV ===============*/
